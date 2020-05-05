@@ -1,0 +1,51 @@
+<div class="label default-question-text-size" dir="auto">{{{LABEL}}}</div>
+
+<!-- If there is an image specified in the media:image column, show it here -->
+{{#MEDIAIMAGE}}
+    <img src="{{MEDIAIMAGE}}" />
+{{/MEDIAIMAGE}}
+
+<!-- If there is audio specified in the media:audio column, show it here -->
+{{#MEDIAAUDIO}}
+    <audio controls controlsList="nodownload">
+        <source src="{{MEDIAAUDIO}}">
+        Your browser does not support the audio element.
+    </audio>
+{{/MEDIAAUDIO}}
+
+<!-- If there is a video specified in the media:video column, show it here -->
+{{#MEDIAVIDEO}}
+    <video width="100%" height="*" controls controlsList="nodownload">
+        <source src="{{MEDIAVIDEO}}">
+        Your browser does not support the video tag.
+    </video>
+{{/MEDIAVIDEO}}
+
+<div class="hint default-hint-text-size" dir="auto">{{{HINT}}}</div>
+
+<!-- This is what will be shown by default -->
+<form class="choices-container" id="checkboxes-container" dir="auto">
+  <div class="choice-container">
+    <input type="text" id="filter-text" autocomplete="off" class="search-box default-answer-text-size">
+  </div>
+  {{#CHOICES}}
+  <div class="choice-container radio">
+    <input
+      type="checkbox"
+      value="{{CHOICE_VALUE}}"
+      name="opt"
+      class="choice-input"
+      id="{{CHOICE_INDEX}}"
+      {{#CHOICE_SELECTED}}checked="checked"{{/CHOICE_SELECTED}}
+      {{#READONLY}}disabled{{/READONLY}}
+    />
+    <label class="choice-label search" for="{{CHOICE_INDEX}}">
+      <div class="choice-label-text default-answer-text-size">
+        {{{CHOICE_LABEL}}}
+      </div>
+      <!-- if there's a choice image, show that image-->
+      {{#CHOICE_IMAGE}}<img src="{{CHOICE_IMAGE}}" class="choice-label-image" />{{/CHOICE_IMAGE}}
+    </label>
+  </div>
+  {{/CHOICES}}
+</form>

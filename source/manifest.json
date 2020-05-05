@@ -1,0 +1,9 @@
+{
+	"name" : "Baseline select_multiple field with search",
+	"author" : "Dobility",
+	"version": "1.0.6",
+	"supportedFieldTypes": ["select_multiple"],
+	"externalJs": ["jquery-3.5.1.min.js"],
+	"hideDefaultRequiredMessage": false,
+	"hideDefaultConstraintMessage": false
+}
