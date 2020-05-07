@@ -53,7 +53,7 @@ To create your own field plug-in using this as a template, follow these steps:
 ## More resources
 
 * **Test form**  
-You can find a sample form definition here.
+You can find a sample form definition here: 
 [Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/plugin_test_form_search_select_multiple.xlsx)
 
 * **Developer documentation**  
