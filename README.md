@@ -24,16 +24,8 @@ This field plug-in adds the ability to filter choice list options for a *select_
 | `compact` appearance | No |
 | `compact-#` appearance | No |
 
-## Expanded feature support
+This field plugin started with the [baseline-select_multiple field plug-in](https://github.com/surveycto/baseline-select_multiple) as a template and inherits the listed [expanded features](https://github.com/surveycto/baseline-select_multiple#expanded-feature-support) supported by the baseline field plugin.
 
-In addition to supporting the default SurveyCTO features listed above, this field plug-in offers the following expanded functionality, inherited from the [baseline-select_multiple field plug-in](https://github.com/surveycto/baseline-select_multiple):
-
-1. Support for RTL languages  
-    If your *label*, *hint*, or choice labels are in a language that uses a right-to-left alphabet (like Arabic), they will be right-justified, and the checkboxes will be to the right of the choice labels. If your form contains both right-to-left and left-to-right choice labels, the formatting will respond to the currently-selected form language.
-1. Support for HTML in choice labels  
-    This plug-in will allow HTML in choice labels to be rendered as HTML, even in Collect on Android and iOS.
-1. Support for HTML in field references  
-    If you reference another field's value in either the field *label* or field *hint*, and that referenced value contains HTML, the HTML will be correctly rendered.
 
 ## How to use
 
