@@ -29,14 +29,14 @@ This field plugin started with the [baseline-select_multiple field plug-in](http
 
 ## How to use
 
-1. Download the test form [extras/sample-form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/plugin_test_form_search_select_multiple.xlsx) from this repo and upload it to your SurveyCTO server.
+1. Download the test form [extras/sample-form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20Form%20-%20Search%20a%20select_multiple%20choice%20list.xlsx) from this repo and upload it to your SurveyCTO server.
 1. Download the [search-select-multiple.fieldplugin.zip](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
 
 ## More resources
 
 * **Test form**  
 You can find a sample form definition here: 
-[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/plugin_test_form_search_select_multiple.xlsx)
+[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20Form%20-%20Search%20a%20select_multiple%20choice%20list.xlsx)
 
 * **Developer documentation**  
 Instructions and resources for developing your own field plug-ins.  
