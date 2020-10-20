@@ -38,7 +38,7 @@ This field plugin started with the [baseline-select_multiple field plug-in](http
 ## More resources
 
 * **Sample form**  
-You can find a sample form definition here: 
+You can find a sample form definition here: <br>
 [Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx)
 
 * **Developer documentation**  
