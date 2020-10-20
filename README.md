@@ -1,14 +1,23 @@
 # Search select multiple
 
-![Default appearance for the 'search-select-multiple' field plug-in](extras/default-search.jpg)
+![Default appearance for the search-select-multiple field plug-in](extras/default-search.jpg)
 
 ## Description
 
-This field plug-in adds the ability to filter choice list options for a *select_mutiple field.* Filter by entering search text into the search field. Also see the sibling field plug-in, [search-select_one](https://github.com/surveycto/search-select-one/blob/master/README.md).
+This field plug-in adds the ability to filter choice list options for a *select_mutiple* field. Filter by entering search text into the search field. Also see the sibling field plug-in, [search-select_one](https://github.com/surveycto/search-select-one/blob/master/README.md).
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip)
 
-## Default SurveyCTO feature support
+## Data format
+This field plug-in uses requires the `select_multiple` field type. The data is stored as you would expect from this field type without a field plug-in.
+
+## How to use
+### Getting started
+
+1. Download the test form [extras/sample-form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx) from this repo and upload it to your SurveyCTO server.
+1. Download the [search-select-multiple.fieldplugin.zip](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
+
+### Default SurveyCTO feature support
 
 | Feature / Property | Support |
 | --- | --- |
@@ -35,16 +44,11 @@ In addition to supporting the default SurveyCTO features listed above, this fiel
 1. Support for HTML in field references  
     If you reference another field's value in either the field *label* or field *hint*, and that referenced value contains HTML, the HTML will be correctly rendered.
 
-## How to use
-
-1. Download the test form [extras/sample-form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/plugin_test_form_search_select_multiple.xlsx) from this repo and upload it to your SurveyCTO server.
-1. Download the [search-select-multiple.fieldplugin.zip](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
-
 ## More resources
 
 * **Test form**  
 You can find a sample form definition here: 
-[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/plugin_test_form_search_select_multiple.xlsx)
+[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx)
 
 * **Developer documentation**  
 Instructions and resources for developing your own field plug-ins.  
