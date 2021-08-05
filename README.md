@@ -21,7 +21,7 @@ This field plug-in uses requires the `select_multiple` field type. The data is s
 ## How to use
 ### Getting started
 
-1. Download the [sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx) from this repo and upload it to your SurveyCTO server.
+1. Download the [sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/sample-form.zip) from this repo and upload it to your SurveyCTO server.
 1. Download the [search-select-multiple.fieldplugin.zip](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
 
 ### Default SurveyCTO feature support
@@ -46,7 +46,7 @@ This field plugin started with the [baseline-select_multiple field plug-in](http
 
 * **Sample form**  
 You can find a sample form definition here: <br>
-[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx)
+[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/sample-form.zip)
 
 * **Developer documentation**  
 Instructions and resources for developing your own field plug-ins.  
