@@ -8,6 +8,13 @@ This field plug-in adds the ability to filter choice list options for a *select_
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip)
 
+## Features
+* Provides a text box for searching a list of options.
+* Works with [preloaded choices](https://docs.surveycto.com/02-designing-forms/04-sample-forms/12.search-and-select.html).
+
+### Requirements
+*Requires Android 6 or upwards to work on SurveyCTO Collect.*
+
 ## Data format
 This field plug-in uses requires the `select_multiple` field type. The data is stored as you would expect from this field type without a field plug-in.
 
