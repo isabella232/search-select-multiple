@@ -8,13 +8,20 @@ This field plug-in adds the ability to filter choice list options for a *select_
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip)
 
+## Features
+* Provides a text box for searching a list of options.
+* Works with [preloaded choices](https://docs.surveycto.com/02-designing-forms/04-sample-forms/12.search-and-select.html).
+
+### Requirements
+*Requires Android 6 or upwards to work on SurveyCTO Collect.*
+
 ## Data format
 This field plug-in uses requires the `select_multiple` field type. The data is stored as you would expect from this field type without a field plug-in.
 
 ## How to use
 ### Getting started
 
-1. Download the [sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx) from this repo and upload it to your SurveyCTO server.
+1. Download the [sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/sample-form.zip) from this repo and upload it to your SurveyCTO server.
 1. Download the [search-select-multiple.fieldplugin.zip](https://github.com/surveycto/search-select-multiple/raw/master/search-select-multiple.fieldplugin.zip) file from this repo, and attach it to the test form on your SurveyCTO server.
 
 ### Default SurveyCTO feature support
@@ -39,7 +46,7 @@ This field plugin started with the [baseline-select_multiple field plug-in](http
 
 * **Sample form**  
 You can find a sample form definition here: <br>
-[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/Sample%20form%20-%20search_select_multiple%20field%20plug-in.xlsx)
+[Download sample form](https://github.com/surveycto/search-select-multiple/raw/master/extras/sample-form/sample-form.zip)
 
 * **Developer documentation**  
 Instructions and resources for developing your own field plug-ins.  
